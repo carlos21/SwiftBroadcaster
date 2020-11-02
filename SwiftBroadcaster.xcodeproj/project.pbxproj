@@ -123,6 +123,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		352F6718254FE7D60007124B /* SwiftBroadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				352F66B6254FD8D30007124B /* Observer.swift */,
+				8933C7841EB5B820000D00A4 /* SwiftBroadcaster.swift */,
+				352F66DB254FDA390007124B /* ObserverSet.swift */,
+			);
+			path = SwiftBroadcaster;
+			sourceTree = "<group>";
+		};
 		52D6D9721BEFF229002C0205 = {
 			isa = PBXGroup;
 			children = (
@@ -159,9 +169,7 @@
 		8933C7811EB5B7E0000D00A4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				352F66B6254FD8D30007124B /* Observer.swift */,
-				8933C7841EB5B820000D00A4 /* SwiftBroadcaster.swift */,
-				352F66DB254FDA390007124B /* ObserverSet.swift */,
+				352F6718254FE7D60007124B /* SwiftBroadcaster */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
